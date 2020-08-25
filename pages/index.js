@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { NextSeo } from 'next-seo';
 import { useState, useEffect } from 'react';
 import { useWindowSize } from '../hooks/useWindowSize';
+import BasicEmail from '../components/Forms/BasicEmail';
 import IndexStyles from '../stylesheets/Index.module.css';
 import MainStyles from '../stylesheets/Main.module.css';
 
@@ -52,6 +53,8 @@ export default () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in assumenda, cumque ipsum nostrum, distinctio, alias quae omnis quis impedit consequuntur doloribus similique suscipit aliquam ex veniam quod sapiente explicabo?</p>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in assumenda, cumque ipsum nostrum, distinctio, alias quae omnis quis impedit consequuntur doloribus similique suscipit aliquam ex veniam quod sapiente explicabo?</p>
+
+        <BasicEmail />
       </div>
     </>
   );

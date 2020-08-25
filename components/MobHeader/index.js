@@ -1,5 +1,6 @@
 import { useRef } from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
+import Link from '../Link';
 import Burger from '../Burger';
 import SideMenu from '../SideMenu';
 import { useOnClickOutside } from '../../hooks/burgerHook';
