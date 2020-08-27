@@ -54,7 +54,7 @@ export default () => {
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in assumenda, cumque ipsum nostrum, distinctio, alias quae omnis quis impedit consequuntur doloribus similique suscipit aliquam ex veniam quod sapiente explicabo?</p>
 
-        <BasicEmail />
+        <BasicEmail heading='Sign Up' />
       </div>
     </>
   );

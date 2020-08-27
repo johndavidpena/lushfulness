@@ -109,7 +109,7 @@ export default () => {
 
         <p>In addition to joining the Facebook Group...</p> */}
 
-        <BasicEmail />
+        <BasicEmail heading='Stay Updated' />
 
         <br />
         <br />
