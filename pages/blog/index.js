@@ -37,6 +37,18 @@ export default () => {
         {/* <h1 className={MainStyles.title1}>blog</h1> */}
         <h1>Blog</h1>
 
+        <Link href='/blog/posts/path-to-present-moment'>
+          <div className={BlogStyles.card}>
+            <span>September 7, 2020</span>
+            <h2>The Path to the Present Moment</h2>
+
+            <img src='https://res.cloudinary.com/mimas-music/image/upload/v1598372001/Lushfulness/woman-on-bed-in-pain-D.jpg' alt='woman-on-bed-in-pain' title='woman-on-bed-in-pain' />
+
+            <h3>Sub-jeading here</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eaque laudantium itaque fuga totam numquam beatae provident placeat, delectus iusto veniam temporibus sapiente, error et nostrum nam? Harum, reiciendis dignissimos!</p>
+          </div>
+        </Link>
+
         <Link href='/blog/posts/it-is-what-it-is'>
           <div className={BlogStyles.card}>
             <span>August 25, 2020</span>

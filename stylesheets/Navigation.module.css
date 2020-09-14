@@ -70,7 +70,7 @@
 }
 
 .desktopPeriod {
-  color: var(--blue);
+  color: var(--primary);
 }
 
 /* MobHeader styles */
@@ -89,12 +89,12 @@
   font-size: 2.6rem;
   line-height: 1;
   font-weight: 900;
-  color: var(--text-normal);
+  color: var(--primary-darker);
 }
 @media (min-width: 370px) {
   .mobileTitle,
   .mobilePeriod {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 640px) {
@@ -109,5 +109,5 @@
 }
 
 .mobilePeriod {
-  color: var(--blue);
+  color: var(--primary);
 }

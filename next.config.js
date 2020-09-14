@@ -12,5 +12,12 @@ module.exports = {
     FIREBASE_MESSAGINGSENDERID: process.env.FIREBASE_MESSAGINGSENDERID,
     FIREBASE_APPID: process.env.FIREBASE_APPID,
     FIREBASE_MEASUREMENTID: process.env.FIREBASE_MEASUREMENTID
+  },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      require('./scripts/generate-sitemap');
+    }
+
+    return config;
   }
 }

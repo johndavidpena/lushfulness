@@ -35,24 +35,24 @@ export default () => {
       />
 
       <div className={MainStyles.page}>
-        <h1 className={MainStyles.title1}>Welcome
-        </h1>
+        {/* <h1 className={MainStyles.title1}>Welcome
+        </h1> */}
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in assumenda, cumque ipsum nostrum, distinctio, alias quae omnis quis impedit consequuntur doloribus similique suscipit aliquam ex veniam quod sapiente explicabo?</p>
+        <p>Lushfulness is an online community serving the greater good of those facing chronic illness. It empowers us to live our best life from a profound state of well-being, no matter the body we are living in. We will become an international online community of like-minded individuals that support each other in this pursuit. Chronic illness is often a lonely and misunderstood experience. May Lushfulness provide fellowship and support.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in assumenda, cumque ipsum nostrum, distinctio, alias quae omnis quis impedit consequuntur doloribus similique suscipit aliquam ex veniam quod sapiente explicabo?</p>
 
-        {screenSize === 'mobile' && (
+        <p>Founder, Ella has lived with the chronic unknowing and pain of ankylosing spondylitis for nearly 30 years. Professionally she is a nephrology nurse and regional manager for home therapy dialysis in three southwest states. In her professional role, she is an educator and advocate for chronic kidney disease and end stage renal disease patients. Ella brings a full spectrum view to chronic pain and disease with her experience as both a patient with chronic disease and pain, as well as a healthcare professional for those experiencing chronic illness and pain. Driven to find a way of being that promotes well-being while living with chronic illness, Ella became a yoga therapist and continues to explore traditional and non-traditional approaches to living well. Through Lushfulness Ella seeks to create fellowship and foster human connection.</p>
+
+        <p>Join us, sign up for updates as Lushfulness flourishes into a community that cultivates individual well-being and in turn, cultivates well-being in our world.</p>
+
+        {/* {screenSize === 'mobile' && (
           <img src='https://res.cloudinary.com/mimas-music/image/upload/v1598210684/Lushfulness/healthy-drink-M.jpg' alt='healthy-drink' title='healthy-drink' />
         )}
 
         {screenSize === 'desktop' && (
           <img src='https://res.cloudinary.com/mimas-music/image/upload/v1598210684/Lushfulness/healthy-drink-D.jpg' alt='healthy-drink' title='healthy-drink' />
-        )}
+        )} */}
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in assumenda, cumque ipsum nostrum, distinctio, alias quae omnis quis impedit consequuntur doloribus similique suscipit aliquam ex veniam quod sapiente explicabo?</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in assumenda, cumque ipsum nostrum, distinctio, alias quae omnis quis impedit consequuntur doloribus similique suscipit aliquam ex veniam quod sapiente explicabo?</p>
 
         <BasicEmail heading='Sign Up' />
       </div>

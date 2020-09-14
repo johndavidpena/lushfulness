@@ -51,6 +51,14 @@ export default function MyApp({ Component, pageProps }) {
           --white: hsl(0, 0%, 100%);
           --off-white: hsl(0, 0%, 99%);
 
+          --primary-darker: #8C3C1F;
+
+          --primary-text: hsl(16, 64%, 34%);
+          --primary-text: hsl(16, 64%, 12%);
+
+          --primary: #BF5934;
+          --secondary: #A3C3D9;
+
           --rhone-orange: #FF6822;
           --rhone-green: #3AD771;
           --blue: #228AFF;
@@ -116,7 +124,7 @@ export default function MyApp({ Component, pageProps }) {
           font-family: var(--default-sans);
           font-size: var(--font-size);
           font-weight: 400;
-          color: var(--text-normal);
+          color: var(--primary-text);
           padding: 8px 0;
         }
 
