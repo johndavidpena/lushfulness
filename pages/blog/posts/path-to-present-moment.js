@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from '../../../components/Link';
-import { NextSeo } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import { useState, useEffect } from 'react';
 import { useWindowSize } from '../../../hooks/useWindowSize';
 import MainStyles from '../../../stylesheets/Main.module.css';
@@ -29,13 +29,51 @@ export default () => {
       </Head>
 
       <NextSeo
-        title='Lushfulness | The Path to the Present Moment'
-        description='Lushfulness | The Path to the Present Moment'
+        title='The Path to the Present Moment | Lushfulness'
+        description=''
         canonical='https://lushfulness.com/blog/posts/path-to-present-moment'
+        openGraph={{
+          url: 'https://lushfulness.com/blog/posts/it-is-what-it-is',
+          title: 'The Path to the Present Moment | Lushfulness',
+          description: '',
+          images: [
+            {
+              url: '',
+              width: 640,
+              height: 429,
+              alt: '',
+            },
+            {
+              url: '',
+              width: 640,
+              height: 426,
+              alt: '',
+            },
+            {
+              url: '',
+              width: 0,
+              height: 0,
+              alt: '',
+            },
+          ],
+        }}
       />
 
       <div>
         <h1 className={MainStyles.title1}>The Path to the Present Moment</h1>
+        <ArticleJsonLd
+          url="https://lushfulness.com/blog/posts/path-to-present-moment"
+          title="The Path to the Present Moment"
+          images={[
+            '',
+            '',
+          ]}
+          datePublished="2020-09-07T08:00:00+08:00"
+          authorName="Ella James"
+          publisherName="Lushfulness"
+          publisherLogo=""
+          description=""
+        />
 
         {/* Image - Path and Artist / paint brush */}
 

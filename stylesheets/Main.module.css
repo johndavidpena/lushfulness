@@ -17,6 +17,10 @@
   margin: 0 1rem 1rem 1rem;
 }
 
+.page p {
+  line-height: 1.5;
+}
+
 /* Titles and headings */
 .title1,
 .title2 {
@@ -50,7 +54,7 @@
   border: none;
   border-radius: var(--border-radius);
   padding: 10px 15px;
-  color: var(--text-normal);
+  color: var(--off-white);
   width: 225px;
   cursor: pointer;
   font-size: 18px;

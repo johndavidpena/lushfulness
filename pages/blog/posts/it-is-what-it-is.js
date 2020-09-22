@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from '../../../components/Link';
-import { NextSeo } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import { useState, useEffect } from 'react';
 import { useWindowSize } from '../../../hooks/useWindowSize';
 import MainStyles from '../../../stylesheets/Main.module.css';
@@ -29,13 +29,51 @@ export default () => {
       </Head>
 
       <NextSeo
-        title='Lushfulness | It Is What It Is'
-        description='Lushfulness | It Is What It Is'
+        title='It Is What It Is | Lushfulness'
+        description=''
         canonical='https://lushfulness.com/blog/posts/it-is-what-it-is'
+        openGraph={{
+          url: 'https://lushfulness.com/blog/posts/it-is-what-it-is',
+          title: 'It Is What It Is | Lushfulness',
+          description: '',
+          images: [
+            {
+              url: 'https://res.cloudinary.com/mimas-music/image/upload/v1598372008/Lushfulness/woman-on-bed-in-pain-M.jpg',
+              width: 640,
+              height: 429,
+              alt: 'woman-on-bed-in-pain',
+            },
+            {
+              url: 'https://res.cloudinary.com/mimas-music/image/upload/v1598371993/Lushfulness/beautiful-mountain-view-M.jpg',
+              width: 640,
+              height: 426,
+              alt: 'beautiful-mountain-view',
+            },
+            {
+              url: '',
+              width: 0,
+              height: 0,
+              alt: '',
+            },
+          ],
+        }}
       />
 
       <div>
         <h1 className={MainStyles.title1}>it is what it is</h1>
+        <ArticleJsonLd
+          url="https://lushfulness.com/blog/posts/it-is-what-it-is"
+          title="It Is What It Is"
+          images={[
+            'https://res.cloudinary.com/mimas-music/image/upload/v1598372008/Lushfulness/woman-on-bed-in-pain-M.jpg',
+            'https://res.cloudinary.com/mimas-music/image/upload/v1598371993/Lushfulness/beautiful-mountain-view-M.jpg',
+          ]}
+          datePublished="2020-08-25T08:00:00+08:00"
+          authorName="Ella James"
+          publisherName="Lushfulness"
+          publisherLogo=""
+          description=""
+        />
 
         <p>It is what it is… how do you respond? Do you choose love or fear?</p>
 

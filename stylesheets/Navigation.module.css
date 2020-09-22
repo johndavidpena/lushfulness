@@ -1,113 +1,42 @@
-/* DeskNav styles */
-/* .navigation {
-  max-width: 800px;
-
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 3rem;
-
-  list-style-type: none;
-}
-
-.navigation a:hover {
-  color: var(--grey-500);
-} */
-
-/* Styles for custom Link component */
-.selected a {
-  color: var(--text-black) !important;
-}
-
-@media (min-width: 768px) {
-  .nameContainer {
-    max-width: 800px;
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
-/* .deskLinkContainer {
-  display: flex;
-  width: 100%;
-  margin: 0 1rem;
-  padding: 8px 0;
-}
-
-.deskLink {
-  font-size: 1.25rem;
-  line-height: 1;
-  font-weight: 900;
-  text-transform: uppercase;
-  color: var(--text-light);
-}
-@media (min-width: 640px) {
-  .deskLink {
-    font-size: 2rem;
-  }
-}
-.deskLink:first-child {
-  padding-right: 2rem;
-} */
-
-.desktopTitle,
-.desktopPeriod {
-  font-family: var(--cursive);
-  font-size: 2rem;
-  line-height: 1;
-  font-weight: 900;
-  color: var(--text-normal);
-}
-@media (min-width: 640px) {
-  .desktopTitle,
-  .desktopPeriod {
-    font-size: 3rem;
-  }
-}
-
-.desktopTitle {
-  text-align: end;
-}
-
-.desktopPeriod {
-  color: var(--primary);
-}
-
-/* MobHeader styles */
 .burger {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  height: 2rem;
+  /* align-items: center; */
   padding-right: 4px;
-  margin: 1rem 0;
+  height: 325px;
+  background-image: url(https://res.cloudinary.com/mimas-music/image/upload/v1600293208/Lushfulness/headerGreen2500x325.png);
 }
 
-.mobileTitle,
-.mobilePeriod {
+.titleContainer {
+  margin-top: 1rem;
+}
+
+.title,
+.period {
   font-family: var(--cursive);
   font-size: 2.6rem;
+  margin-top: 1rem;
   line-height: 1;
   font-weight: 900;
   color: var(--primary-darker);
 }
 @media (min-width: 370px) {
-  .mobileTitle,
-  .mobilePeriod {
+  .title,
+  .period {
     font-size: 3.5rem;
   }
 }
 @media (min-width: 640px) {
-  .mobileTitle,
-  .mobilePeriod {
+  .title,
+  .period {
     font-size: 4rem;
   }
 }
 
-.mobileTitle {
+.title {
   text-align: end;
 }
 
-.mobilePeriod {
+.period {
   color: var(--primary);
 }

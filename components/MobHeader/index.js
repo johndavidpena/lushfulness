@@ -17,11 +17,11 @@ const Header = ({ open, setOpen }) => {
         <SideMenu open={open} setOpen={setOpen} />
       </div>
 
-      <div className={NavStyles.nameContainer}>
+      <div className={NavStyles.titleContainer}>
         <Link href='/'>
           <a>
-            <span className={NavStyles.mobileTitle}>lushfulness
-              <span aria-hidden="true" className={NavStyles.mobilePeriod}>.</span>
+            <span className={NavStyles.title}>lushfulness
+              <span aria-hidden="true" className={NavStyles.period}>.</span>
             </span>
           </a>
         </Link>

@@ -27,9 +27,10 @@ export default props => {
 
   return (
     <animated.div style={fade}>
+      <MobHeader open={open} setOpen={setOpen} />
+
       <div className={MainStyles.pageGrid}>
         {/* {menu === 'mobile' && <MobHeader open={open} setOpen={setOpen} /> || <DeskNav />} */}
-        <MobHeader open={open} setOpen={setOpen} />
 
         <main className={MainStyles.page}>
           {props.content}

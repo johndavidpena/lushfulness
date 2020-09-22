@@ -35,8 +35,8 @@ export default () => {
       />
 
       <div className={MainStyles.page}>
-        {/* <h1 className={MainStyles.title1}>Welcome
-        </h1> */}
+        <h1 className={MainStyles.title1}>Welcome
+        </h1>
 
         <p>Lushfulness is an online community serving the greater good of those facing chronic illness. It empowers us to live our best life from a profound state of well-being, no matter the body we are living in. We will become an international online community of like-minded individuals that support each other in this pursuit. Chronic illness is often a lonely and misunderstood experience. May Lushfulness provide fellowship and support.</p>
 
