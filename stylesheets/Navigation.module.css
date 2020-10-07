@@ -1,39 +1,37 @@
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
+
   margin-bottom: 1rem;
   padding-right: 4px;
   height: 115px;
-  /* height: 300px; */
-  /* background-image: url(https://res.cloudinary.com/mimas-music/image/upload/v1601856394/Lushfulness/cactus-header-450.jpg);
-  background-size: cover; */
   background-color: var(--grey-050);
   box-shadow: var(--box-shadow);
 }
 @media (min-width: 640px) {
   .nav {
     height: 150px;
-    /* height: 325px; */
-    /* background-size: 100%; */
   }
 }
 
 .titleContainer {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .title,
 .period {
   font-family: var(--cursive);
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   line-height: 1;
   font-weight: 900;
   color: var(--primary-darker);
+  padding: 0 !important;
 }
 @media (min-width: 370px) {
   .title,
   .period {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 640px) {

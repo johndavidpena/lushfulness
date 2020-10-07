@@ -62,7 +62,7 @@ export default function MyApp({ Component, pageProps }) {
           --primary-text: hsl(16, 64%, 12%);
 
           --primary: #BF5934;
-          --secondary: #A3C3D9;
+          --secondary: #8DBCEE;
 
           --rhone-orange: #FF6822;
           --rhone-green: #3AD771;
