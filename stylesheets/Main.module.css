@@ -3,18 +3,22 @@
   grid-template-rows: auto 1fr auto;
 
   min-height: 100vh;
-  max-width: 800px;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .pageGrid {
     margin: 0 auto 1.5rem auto;
   }
-}
+} */
 
 .page {
   max-width: 800px;
-  margin: 0 1rem 1rem 1rem;
+  margin: 8px;
+}
+@media (min-width: 816px) {
+  .page {
+    margin: 8px auto;
+  }
 }
 
 .page p {
@@ -26,9 +30,9 @@
 .title2 {
   font-size: 2rem;
   line-height: 1;
-  /* font-weight: 900; */
   font-family: var(--cursive);
-  color: var(--text-normal);
+  font-weight: 100;
+  color: var(--primary-darker);
 }
 @media (min-width: 640px) {
   .title1,
@@ -39,6 +43,30 @@
 
 .title2 {
   color: var(--blue);
+}
+
+.welcome {
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1;
+  font-family: var(--cursive);
+  color: var(--primary-darker);
+}
+@media (min-width: 640px) {
+  .welcome {
+    font-size: 4rem;
+  }
+}
+
+.headshot {
+  width: 80%;
+  margin: 10%;
+}
+@media (min-width: 640px) {
+  .headshot {
+    width: 50%;
+    margin: 0 25%;
+  }
 }
 
 .stat {

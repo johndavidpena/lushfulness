@@ -1,4 +1,4 @@
-import Router from 'next/router'
+// import Router from 'next/router'
 import Layout from '../components/Layout';
 // import UserProvider from '../context/userContext';
 import * as gtag from '../utils/gtag';
@@ -9,7 +9,7 @@ import SEO from '../next-seo.config';
 export default function MyApp({ Component, pageProps }) {
   // Sentry.init({ dsn: "https://2e3a4a68f6c249bbbcb72d73e428aa9a@o382987.ingest.sentry.io/5389876" });
 
-  Router.events.on('routeChangeComplete', url => gtag.pageview(url));
+  // Router.events.on('routeChangeComplete', url => gtag.pageview(url));
 
   return (
     <Layout content={(
@@ -51,6 +51,11 @@ export default function MyApp({ Component, pageProps }) {
           --white: hsl(0, 0%, 100%);
           --off-white: hsl(0, 0%, 99%);
 
+          --header-blue: #8EE3FA;
+
+          --cactus-green-light: #D1D8CE;
+          -- cactus-green-dark: #2A3931;
+
           --primary-darker: #8C3C1F;
 
           --primary-text: hsl(16, 64%, 34%);
@@ -78,7 +83,7 @@ export default function MyApp({ Component, pageProps }) {
           --box-shadow-less: 0 2px 3px 0 hsla(0, 0%, 0%, 0.2);
           --inset-box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
 
-          --cursive: 'Dancing Script', cursive;
+          --cursive: 'Athena', cursive;
           --default-sans: 'Roboto', sans-serif;
 
           --font-smallest: 0.75rem;
@@ -124,8 +129,13 @@ export default function MyApp({ Component, pageProps }) {
           font-family: var(--default-sans);
           font-size: var(--font-size);
           font-weight: 400;
-          color: var(--primary-text);
+          color: var(--text-normal);
           padding: 8px 0;
+        }
+        @media (min-width: 640px) {
+          p, span, a {
+            font-size: 1.2rem;
+          }
         }
 
         img {

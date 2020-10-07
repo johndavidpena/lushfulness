@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4px;
+  height: 325px;
+  background-image: url(https://res.cloudinary.com/mimas-music/image/upload/v1601235814/Lushfulness/cactusBackground2340x1560.png);
+  background-position-x: 15%;
+  background-size: 300%;
+  background-position-y: -5%;
+}
+@media (min-width: 640px) {
+  .footer {
+    background-position-y: 4%;
+    background-size: 100%;
+  }
+}

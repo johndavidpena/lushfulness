@@ -3,9 +3,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgba(0,0,0,0.9);;
+  align-items: center;
+  background: rgba(0,0,0,0.8);
   height: 100vh;
-  text-align: left;
+  width: 20vw;
   padding: 2rem;
   position: absolute;
   top: 0;

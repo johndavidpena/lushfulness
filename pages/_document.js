@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-import { GA_TRACKING_ID } from '../utils/gtag';
+// import { GA_TRACKING_ID } from '../utils/gtag';
 
 // The < Head /> component used here is not the same one from next / head.The < Head /> component used here should only be used for any < head > code that is common for all pages.For all other cases, such as <title> tags, we recommend using next / head in your pages or components.
 
@@ -10,9 +10,8 @@ export default class extends Document {
       <Html>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"></link>
-          {/* For PINTEREST */}
-          {/* <meta name="p:domain_verify" content="0a13b492741c459b2cd89734660e104a" />
-          <script
+
+          {/* <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />

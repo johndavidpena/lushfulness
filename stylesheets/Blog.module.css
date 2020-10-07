@@ -1,5 +1,7 @@
 .blog h1 {
   text-align: center;
+  font-family: var(--cursive);
+  font-weight: 500;
 }
 
 .card {
@@ -7,7 +9,7 @@
   border-radius: var(--border-radius);
   margin: 2rem auto;
   padding: 8px;
-  background: var(--grey-100);
+  background: rgba(191, 89, 52, 0.12);
   box-shadow: var(--box-shadow-more);
   cursor: pointer;
 }
@@ -20,7 +22,7 @@
 .card h2 {
   font-size: var(--font-larger);
   font-weight: bold;
-  font-family: var(--cursive);
+  /* font-family: var(--cursive); */
 }
 
 .card h3:after {
@@ -37,16 +39,8 @@
 }
 
 /* Post styles */
-.post {
-  max-width: 744px;
-  margin: 0 auto;
-}
-@media (max-width: 744px) {
-  .post h1,
-  .post span,
-  .post p {
-    margin: 1rem;
-  }
+.post h3 {
+  font-size: var(--font-largest);
 }
 
 .photoCredit {
@@ -61,7 +55,7 @@
   height: 595px;
 }
 
-.postTitle h1 {
+/* .postTitle h1 {
   padding: 8px;
   font-size: var(--font-larger);
   font-weight: bold;
@@ -80,7 +74,7 @@
     width: 80%;
     padding-top: 8px;
     border-bottom: 1px solid var(--grey-300);
-}
+} */
 
 .bookTitle,
 .poem,

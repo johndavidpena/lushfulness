@@ -2,8 +2,8 @@
 .formWrapper {
   margin: var(--obj-margin-mobile);
   width: 288px;
-  background-color: var(--white);
-  border-radius: var(--border-radius);
+  /* background-color: var(--white); */
+  /* border-radius: var(--border-radius); */
 }
 @media (min-width: 640px) {
   .formWrapper {
@@ -36,7 +36,8 @@
 	padding: 2rem 0;
   text-align: center;
 
-  background: #9FEBB8;
+  background: var(--cactus-green-light);
+  background: url(https://res.cloudinary.com/mimas-music/image/upload/v1601235814/Lushfulness/cactusBackground2340x1560.png);
   border-radius: var(--border-radius);
 }
 
@@ -164,4 +165,28 @@
 .errors {
   font-size: var(--font-smallest) !important;
   color: red !important;
+}
+
+/* Footer wrapper for forms */
+.FooterWrapper {
+  margin: 0;
+  width: 100vw;
+}
+
+.FooterContainer {
+	padding: 2rem 0;
+  text-align: center;
+
+  background: var(--cactus-green-light);
+  background: url(https://res.cloudinary.com/mimas-music/image/upload/v1601235814/Lushfulness/cactusBackground2340x1560.png);
+  border-radius: var(--border-radius);
+}
+
+.FooterContainer p {
+  font-size: 40px;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  font-family: var(--cursive);
+  /* font-weight: 200; */
+  color: var(--text-dark);
 }

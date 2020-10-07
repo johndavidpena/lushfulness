@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-// import Link from 'next/link';
 import Link from '../Link';
 import Burger from '../Burger';
 import SideMenu from '../SideMenu';
@@ -11,7 +10,7 @@ const Header = ({ open, setOpen }) => {
   useOnClickOutside(node, () => setOpen(false));
 
   return (
-    <nav className={NavStyles.burger}>
+    <nav className={NavStyles.nav}>
       <div ref={node}>
         <Burger open={open} setOpen={setOpen} />
         <SideMenu open={open} setOpen={setOpen} />
@@ -20,7 +19,7 @@ const Header = ({ open, setOpen }) => {
       <div className={NavStyles.titleContainer}>
         <Link href='/'>
           <a>
-            <span className={NavStyles.title}>lushfulness
+            <span className={NavStyles.title}>Lushfulness
               <span aria-hidden="true" className={NavStyles.period}>.</span>
             </span>
           </a>
