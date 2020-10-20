@@ -30,7 +30,7 @@ export default () => {
       {/* TODO: SITE KEYWORDS: spondyloarthritis */}
       <NextSeo
         title='Lushfulness'
-        description='Lushfulness is a podcast and Youtube channel about health and chronic pain.'
+        description='Lushfulness is about health and chronic pain.'
         canonical='https://lushfulness.com/'
       // openGraph={{
       //   url: 'https://newagentmindset.com/',

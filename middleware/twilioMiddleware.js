@@ -8,6 +8,8 @@ const client = require('twilio')(accountSid, authToken);
 async function twilio(req, res, next) {
   req.twilioClient = client;
 
+  // console.log('twilioMiddleware call');
+
   return next();
 }
 

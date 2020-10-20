@@ -17,8 +17,8 @@ handler.post((req, res) => {
   client.messages
     .create({
       from: '+19152332022',
-      to: '+19153553477',
-      body: `${firstName} ${lastName} at ${email} submitted their info.`
+      to: '+19153552970',
+      body: `${firstName} ${lastName} at ${email} submitted at Lushfulness.`
     })
     .catch(err => {
       console.log(err);

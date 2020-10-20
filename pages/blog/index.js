@@ -28,8 +28,8 @@ export default () => {
       </Head>
 
       <NextSeo
-        title='Lushfulness | Blog for New Real Estate Agents'
-        description='Lushfulness is '
+        title='Lushfulness | Blog'
+        description='Lushfulness is about health and chronic pain.'
         canonical='https://lushfulness.com/blog/index/'
       // openGraph={{
       //   url: 'https://newagentmindset.com/',

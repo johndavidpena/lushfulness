@@ -3,6 +3,7 @@ import MainStyles from '../../stylesheets/Main.module.css';
 import FormStyles from './Form.module.css';
 import { useFormik } from 'formik';
 import firebase from '../../firebase/clientApp';
+import axios from 'axios/index';
 
 const validate = values => {
   const errors = {};
@@ -45,7 +46,11 @@ const FooterEmail = props => {
         email: values.email
       })
         .then(() => {
-          console.log('Submitted');
+          // console.log('FooterEmail twilioAlert next');
+          const twilioAlert = axios.post('/api/twilioAlert', { values: values });
+        })
+        .then(() => {
+          // console.log('Submitted');
           setSubmitted(true);
         })
         .catch(error => {

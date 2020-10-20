@@ -47,10 +47,11 @@ const BasicEmail = props => {
         email: values.email
       })
         .then(() => {
+          // console.log('BasicEmail twilioAlert next');
           const twilioAlert = axios.post('/api/twilioAlert', { values: values });
         })
         .then(() => {
-          console.log('Submitted');
+          // console.log('Submitted');
           setSubmitted(true);
         })
         .catch(error => {
