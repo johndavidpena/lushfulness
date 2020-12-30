@@ -103,7 +103,7 @@ export default () => {
 
         <p>Join us, sign up for updates as Lushfulness flourishes into a community that cultivates individual well - being and in turn, cultivates well - being in our world.</p>
 
-        <BasicEmail heading='Sign Up' />
+        {/* <BasicEmail heading='Sign Up' /> */}
       </div>
     </>
   );

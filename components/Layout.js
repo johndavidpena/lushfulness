@@ -20,7 +20,7 @@ export default props => {
         </main>
       </div>
 
-      <FooterEmail heading='Sign Up' />
+      {/* <FooterEmail heading='Sign Up' /> */}
       {/* <Footer /> */}
     </animated.div>
   );
